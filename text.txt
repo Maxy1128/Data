@@ -1,0 +1,132 @@
+
+## Slide 1 – Purpose of the Tool
+
+This tool is a prototype for **media contextualization**, designed to support fraud managers and investigators in identifying fraud-related risk signals from media content and regulatory filings. It uses GenAI to extract and organize risk patterns from large volumes of text, while also providing transparency so users can verify how the AI reached its conclusions.
+
+The main goal is to help users detect early warning signals earlier, faster, and with higher confidence, compared to manual review or black-box AI systems.
+
+---
+
+## Slide 2 – Target Users and Use Cases
+
+The primary users of this tool are fraud managers, risk analysts, compliance teams, and investigators. Typical use cases include early fraud detection, continuous risk monitoring, case investigation support, and post-event analysis.
+
+The tool is especially useful when users need to analyze long-term changes across media reports and SEC filings, where risk signals may appear gradually rather than as single events.
+
+---
+
+## Slide 3 – System Access and Navigation
+
+Once system access is granted, users can enter the application through the **Media Risk Explore** menu. This menu serves as the main entry point for all company-level risk analysis.
+
+From this page, users can initiate searches, review identified risk patterns, and move from high-level summaries to detailed document-level evidence.
+
+---
+
+## Slide 4 – Company Search and Overview
+
+By clicking the search button, the system displays a list of companies. For each company, the interface shows the number of identified **high risk patterns**.
+
+This overview allows users to quickly prioritize which companies require further attention. A higher number of risk patterns does not automatically indicate fraud, but it signals that deeper review may be needed.
+
+Users can select a company from the list to begin a detailed examination.
+
+---
+
+## Slide 5 – Case Example: Learning Engine
+
+To demonstrate the workflow, this training uses **Learning Engine** as an example.
+On September 5, 2024, an investigation was initiated following allegations published by Hindenburg Research in late August 2024.
+
+In December 2024, Learning Engine declared bankruptcy and was delisted from the SEC. This case provides a clear reference point to show how the tool identifies warning signals well before public allegations or regulatory actions.
+
+---
+
+## Slide 6 – Time-Based Risk Pattern Distribution
+
+After selecting a company, users can view the **High Risk Patterns Distribution** over time. This visualization shows when different types of risk patterns appear in media reports and SEC filings.
+
+For Learning Engine, the distribution shows that multiple high risk patterns began to appear consistently in early 2023, nearly two years before the formal investigation.
+
+This time-based view is critical for understanding whether risks are isolated events or part of a longer trend.
+
+---
+
+## Slide 7 – Types of Identified Risk Patterns
+
+In the Learning Engine case, the system identified repeated occurrences of several risk pattern categories, including:
+
+Changes in key management positions, which may signal internal instability.
+Corporate governance weaknesses, such as board or control issues.
+Announcements of equity financing, especially when they occur frequently or under stress conditions.
+Changes in liquidity or cash flow, indicating possible financial pressure.
+
+The repetition and combination of these patterns over time increases their relevance as warning signals.
+
+---
+
+## Slide 8 – Value of Early Warning Signals
+
+If investigators had access to these signals in early 2023, they could have been alerted more than 20 months before the allegations by Hindenburg Research.
+
+This illustrates the main value of the tool: not predicting outcomes, but providing structured, explainable signals that support earlier and more informed decision-making.
+
+---
+
+## Slide 9 – Peer Review and Company Comparison
+
+The **Peer Review** section allows users to compare the risk pattern distribution of the selected company with other companies in the same sector.
+
+In this example, Learning Engine is compared with a peer company that is generally considered healthy. The comparison shows that Learning Engine exhibits more frequent and diverse high risk patterns.
+
+This relative view helps users distinguish between industry-wide signals and company-specific anomalies.
+
+---
+
+## Slide 10 – Addressing AI Reliability Concerns
+
+Many users are concerned about AI hallucination or unsupported conclusions. To address this, the system is designed with built-in verification features rather than relying on trust alone.
+
+Every identified risk pattern can be traced back to specific documents and specific text segments.
+
+---
+
+## Slide 11 – Document Session for Verification
+
+The **Document Session** lists all documents where risk patterns have been identified. For each document, the system provides a short explanation describing why the AI believes a given pattern is present.
+
+This explanation focuses on textual signals and contextual cues, not abstract scores.
+
+---
+
+## Slide 12 – Evidence Highlighting in Original Documents
+
+When a user selects a document, the system displays the original text and highlights the exact sentence or section used as evidence.
+
+For example, if a document is tagged with “changes in key management positions,” the relevant sentence describing the management change is clearly marked.
+
+This allows users to quickly confirm whether the AI interpretation aligns with their own judgment.
+
+---
+
+## Slide 13 – Subscription and Continuous Monitoring
+
+The tool also supports a **subscription feature**. Users can subscribe to companies they want to monitor closely.
+
+Once subscribed, the system automatically tracks new media content and filings related to those companies. When new high risk patterns are detected, alerts are generated without requiring manual searches.
+
+---
+
+## Slide 14 – Summary Page and Statistics
+
+All alerts and updates appear on a summary page. This page provides an overview of newly identified risk patterns, as well as cumulative statistics over time.
+
+These statistics help users understand whether risk exposure is increasing, decreasing, or remaining stable.
+
+---
+
+## Slide 15 – Key Takeaways
+
+This tool combines GenAI-based pattern detection with transparent verification at the document level. It supports early risk identification, structured investigation, and continuous monitoring.
+
+By integrating time-based analysis, peer comparison, and evidence highlighting, the system helps users move faster while maintaining control over judgment and accountability.
