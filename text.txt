@@ -1,0 +1,17 @@
+I can access gmbt-confluence links, but I was initially unable to log in. I followed the access tutorial to request permissions.
+
+Step 1 was completed successfully: my personal account was added to the xxx group, and I can now log in.
+
+In step 2, when creating a group access ticket for the required application group, the request failed with the following error (see attached screenshot):
+
+Unfortunately, this automatic request has failed due to the following problems: 
+
+After step 1, when I log in to Confluence, I see the message:
+
+
+
+As a result, I can no longer view pages that were previously accessible.
+
+Could you please help check the failed group access request and fix the permission issue, or add my account to the correct application group manually?
+
+Thank you.
