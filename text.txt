@@ -15,3 +15,36 @@ As a result, I can no longer view pages that were previously accessible.
 Could you please help check the failed group access request and fix the permission issue, or add my account to the correct application group manually?
 
 Thank you.
+
+
+Hi all,
+
+I have reviewed the prompt and the topic optimization changes. 
+
+1. Prompt
+Reviewed the prompt as well and did not see any major issues.
+
+2. Topic optimization 
+My understanding is that, similar to xxxx, clarification is mainly needed when there is a gap between the topic name and the description, and that gap could cause the model to classify common or non-financial cases into a fraud-related category.
+In the updated version (the version M sent at 6:30 pm today), many additions introduce examples or discovery paths. I am a bit concerned that this may narrow the definition and unintentionally guide the LLM toward keyword matching, rather than concept-level understanding.
+
+If M’s additions are to be retained, below are some possible refinements:
+
+ccccc
+Unusual related party transactions include cases such as unfair pricing, absences of business rationale, procedural violations and detriment to the company, etc.
+
+cccccc
+This refers to investigation initiated by regulatory agencies or internal company bodies to address issues, such as financial fraud, accounting irregularities, or misleading disclosures
+
+ccc, ccc, and cccc might be not retained to avoid narrowing the definition.
+
+Additional point – xxx clarification
+I would also like to add one point on xxxx.
+Proposed supplement:
+“This includes cases where the auditor resigns or is dismissed by the company.”
+Reason:
+During hallucination testing, there is a case where company dismissed an auditor and the model classified them under LG004. These cases were flagged as hallucination because the model treated “dismissal” as different from “resignation”. A short clarification may help reduce this ambiguity.
+
+I am not very certain about the supplement boundary. The comments above are based on my current understanding and may require further review or discussion. My updated version is in the table: topic_v2_updated.xlsx.
+
+Best regards,
