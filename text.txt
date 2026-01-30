@@ -1,0 +1,9 @@
+4. Learning and Sharing Session
+
+Description
+Strengthen personal knowledge related to ongoing projects and contribute to team knowledge exchange.
+
+	1.	Complete at least 10 hours of structured learning in areas such as data analysis, modeling methods, tools, or business domain knowledge that support current projects. (By the end of December)
+	2.	Apply learning outcomes in daily work, for example improving data analysis approaches, modeling support, or process understanding. (Ongoing)
+	3.	Contribute to at least one team or department knowledge sharing session to boost knowledge exchange. such as preparing materials, organizing content, or delivering part of the presentation in a formal meeting. (By the end of November)
+	4.	Summarize key learning points and practical takeaways from the learning process and sharing activity. (By the end of December)
